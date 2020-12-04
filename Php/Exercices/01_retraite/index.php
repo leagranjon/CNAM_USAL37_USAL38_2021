@@ -35,3 +35,5 @@ else if($age < $retraite) {
 else {
     echo "la retraite c'est cette années";
 }
+
+echo "\n FIN";
