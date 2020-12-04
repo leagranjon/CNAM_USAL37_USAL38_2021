@@ -24,12 +24,12 @@ $age = 60;
 
 if($age > $retraite) {
 
-    $difference = $age - $retraite
+    $difference = ($age - $retraite);
     echo "vous êtes à la retraite depuis $difference années";
 }
-if else($age < $retraite) {
+else if($age < $retraite) {
     
-    $difference = $retraite - $age
+    $difference = ($retraite - $age);
     echo "il vous reste $différence années avant la retraite";
 }
 else {
